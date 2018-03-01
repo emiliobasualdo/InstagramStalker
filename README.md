@@ -24,6 +24,7 @@ Install python if you don't already have it; I recommend [python3](https://www.p
 Continue to install the face_recognition api, follow [this instructions]    (https://github.com/ageitgey/face_recognition#installation)  
 
 ## Usage
+Before even starting, your should put pictures containing only your target's face in /path/to/InstagramStalker/Files/FaceReferences/targetUsername/Faces/
 `debug`has to take a value between `true`or `false`. It will print in stdout the current state of the program  
 `$ php StalkerCLI.php MyUsername MyPassword myExUsername true`  
 There is an [example](https://github.com/emiliobasualdo/InstagramStalker/example.php) on how to use the code as a module  
