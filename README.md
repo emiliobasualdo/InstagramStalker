@@ -2,8 +2,8 @@
 
 A very simple php program for Instagram story stalking.
 The program searches for appearances of a target user in stories, these stories are selected from the intersection of the followings and followers of the target.  
-Once the an appearance of the target is found, the story is saved on the machine.  
-The program requires the user to personally supply with images of the target's face; for details on the recognition go to ageitgey/face_recognition wiki
+Once an appearance of the target is found, the story is saved to the current directory.  
+The program requires the user to personally supply images of the target's face; for details on the recognition go to ageitgey/face_recognition wiki
 
 The code was tested in OSx, never on Linux, though I don't see any problem with it.  
 An example on how to use it as a module can be found in StalkerMain.php  
@@ -30,5 +30,3 @@ There is an [example](https://github.com/emiliobasualdo/InstagramStalker/Stalker
 
 Please feel free to suggest any changes and criticise my work as it is one of my firsts.    
 Happy Stalking  
-
-BTC Wallet: 14LQoDdW7BG6tqAG6tmkEx4G4LvqJQQJBb  
